@@ -1,63 +1,63 @@
-# Day 20 - 20.9.2022
+# Day 1 - 1.11.2022
 
 ## Part I
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. Bridge
+2. 2065
+3. 84561307
+4. 4040AC
+5. March
+6. D
+7. F
+8. E
+9. 20
+10. next week
 
-total - 
+total - 10
 
 ## Part II
 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
+11. C
+12. C
+13. C x B
+14. T
+15. F
+16. environment
+17. 5:30 pm
+18. 3:45 pm
+19. A
+20. C
 
-total - 
+total - 9
 
 ## Part III
 
-21. 
-22. 
-23. 
-24. 
-25. 
-26. 
-27. 
-28. 
-29. 
-30. 
+21. past mistakes
+22. what they thought
+23. in the jobs
+24. flexible and adaptable
+25. F
+26. C
+27. A
+28. H
+29. E
+30. G
 
-total - 
+total - 10
 
 ## Part IV
 
-31. 
-32.  
-33. 
-34. 
-35. 
-36. 
-37. 
-38. 
-39. 
-40. 
+31. Japan
+32. Germany 
+33. history
+34. Spanish
+35. Italian
+36. girlfriend
+37. Japanese
+38. time
+39. China
+40. Spain
 
-total - 
+total - 10
 
-result - /40
+result - 39/40
