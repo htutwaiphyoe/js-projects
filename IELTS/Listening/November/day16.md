@@ -28,6 +28,7 @@ total - 9
 19. canteen
 20. study centre
 
+conifer = ထင်းရှုးပင်
 total - 8
 
 ## Part III
@@ -43,6 +44,7 @@ total - 8
 29. comfortably
 30. retirement
 
+engender = ပေါက်ဖွားစေသည်
 total - 9
 
 ## Part IV
