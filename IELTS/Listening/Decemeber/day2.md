@@ -28,6 +28,7 @@ total - 8
 19. group
 20. temporal x permanent
 
+alluring - ညှို့ဓာတ်
 total - 6
 
 ## Part III
@@ -60,6 +61,7 @@ total - 10
 
 outskrits - ဆင်ခြေဖုံး
 residential - လူနေရပ်ကွက်
+ephemeral - ပေါ်ပင်
 total - 10
 
 result - 34/40
