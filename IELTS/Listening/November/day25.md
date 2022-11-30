@@ -21,14 +21,14 @@ total - 9
 12. hoper x hoppers
 13. walking tracks
 14. 7 PM
-15. waterfall walk x waterfall work
+15. waterfall walk
 16. sensible footwear
 17. socks
 18. hat
 19. poisonous spiders
 20. wild berries
 
-total - 9
+total - 10
 
 ## Part III
 
@@ -39,13 +39,13 @@ total - 9
 25. biology
 26. fragments
 27. refugee
-28. E x B
-29. F x C
-30. C x E
+28. E 
+29. F 
+30. C 
 
 indigenous - ဒေသခံ
 fragment - အပိုင်းအစ
-total - 6
+total - 9
 
 ## Part IV
 
@@ -62,4 +62,4 @@ total - 6
 
 total - 8
 
-result - 32/40
+result - 36/40
