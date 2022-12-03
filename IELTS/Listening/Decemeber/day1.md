@@ -58,6 +58,7 @@ total - 9
 39. assassination
 40. wives
 
+congressman = အထက်လွတ်တော်အမတ်
 total - 10
 
 result - 38/40
