@@ -75,6 +75,13 @@ saddle - မြင်းကုန်းနှီး
 apprentice - အလုပ်သင်
 barbaric - ရိုင်းစိုင်းသော
 digress - လမ်းချော်သည်
+exuberance - ရွှင်မြူးသော
+novelty - အသစ်အဆန်း
+weep - ငိုကြွေးသည်
+taxidermy - ရုပ်လုံးသွင်းသည်
+excavate - တူးဖော်သည်
+exhume - အလောင်းဖော်သည်
 total - 9
+
 
 result - 33/40
