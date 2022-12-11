@@ -64,3 +64,5 @@ action verbs + er/or => noun eg. creator
 ## Quiz
 
 varied, diverse, different, distinct, several, unlike, various.
+
+The best time for new beginning is now.

@@ -52,3 +52,5 @@ Simple present tense
 ## Quiz
 
 clever, smart
+
+Sometimes, the heart sees what is invisible to the eye.

@@ -62,3 +62,5 @@ eg.
 ## Quiz
 
 permit, allow
+
+Success is not the key to happiness. Happy is the key to success. If you love what you are doing, you will be successful.

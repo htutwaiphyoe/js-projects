@@ -88,3 +88,5 @@ fantastic, awesome, amazing
 8. to
 9. to
 10. her, she
+
+You can't beat a person who never gives up.

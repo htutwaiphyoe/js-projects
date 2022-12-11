@@ -39,3 +39,4 @@ I C; conjunctive adverbs, I C
 
 tiny, small
 
+The best revenge is your massive success.

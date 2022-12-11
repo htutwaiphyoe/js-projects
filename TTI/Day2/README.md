@@ -48,3 +48,5 @@ Sociable/Outgoing => ဖော်ရွှေသည်
 8. many
 9. much
 10. many
+
+You can't go back and change the beginning. But you can start now and change the ending.
