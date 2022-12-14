@@ -116,7 +116,7 @@ cousin - တစ်ဝမ်းကွဲ
 mother - အမေ
 wife - မိန်းမ
 sister in law - ခယ်မ
-fahter - အဖေ
+father - အဖေ
 uncle - ဦးလေး
 
 husband - ယောကျ်ား
@@ -152,7 +152,7 @@ female - မိန်းမ
 boyfriend - ရည်းစားကောင်လေး
 girlfriend - ရည်းစားကောင်မလေး
 partner - တွဲဖက်
-husbad - လင်ယောကျ်ား
+husband - လင်ယောကျ်ား
 wife - ဇနီးမယား
 
 ## Room and furniture
