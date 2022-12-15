@@ -41,3 +41,5 @@ horrible, terrible
 10. pleasure
 
 The life in front of you is more important than the life behind you.
+
+[https://icspeech.com/phonetic-symbols.html](https://icspeech.com/phonetic-symbols.html)
