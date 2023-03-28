@@ -65,6 +65,9 @@ total - 10
 39. bicycle
 40. exhibit
 
+scoot - ပြေးလွှားသွားသည်
+taxidermy - ရုပ်လုံးသွင်းပညာ
+exhume - အလောင်းဖော်သည်
 total - 9
 
 result - 32/40
