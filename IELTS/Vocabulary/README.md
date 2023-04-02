@@ -12,9 +12,12 @@ sincerity - ရိုးသားသော
 
 courtesy - ယဉ်ကျေးမှု
 tendency - ယိမ်းယိုင်သော
+sled - စွတ်ဖား
 
 ## Word I don't know
 
 ethnocentric - မိမိကိုစံထားသော
 autonomous - ကိုယ်ပိုင်အုပ်ချုပ်သော
 banter - ကျီစယ်စကား
+garment - အထည်
+anorak - ခေါင်းစွပ်ပါ အပေါ်အင်္ကျီ
