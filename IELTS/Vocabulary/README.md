@@ -7,12 +7,18 @@
 obsolete - ခေတ်နောက်ကျသော
 predominant - ကြီးစိုးသော
 sincerity - ရိုးသားသော
+defiance - အာခံခြင်း
+insecticide - ပိုးသတ်ဆေး
+contrive - ကြံဖန်သည်
+
 
 ## Word I'm not sure
 
 courtesy - ယဉ်ကျေးမှု
 tendency - ယိမ်းယိုင်သော
 sled - စွတ်ဖား
+vanity - ဝင့်ဝါခြင်း
+permeate - ပျံ့နှံ့သည်
 
 ## Word I don't know
 
@@ -21,3 +27,7 @@ autonomous - ကိုယ်ပိုင်အုပ်ချုပ်သော
 banter - ကျီစယ်စကား
 garment - အထည်
 anorak - ခေါင်းစွပ်ပါ အပေါ်အင်္ကျီ
+roundabout - အဝိုင်း
+wean - နို့ဖြတ်သည်
+poach - ပြုတ်သည်
+
