@@ -44,3 +44,4 @@ gauge - တိုင်းတာသည်
 rigorous - တင်းကျပ်သော
 incentive - မက်လုံး
 pledge - ကတိ
+homogenous - တစ်သားတည်းဖြစ်သော
