@@ -45,3 +45,6 @@ rigorous - တင်းကျပ်သော
 incentive - မက်လုံး
 pledge - ကတိ
 homogenous - တစ်သားတည်းဖြစ်သော
+stag - ဒရယ်
+pessimistic - အကောင်းမမြင်သော
+subordinate - လက်အောက်ငယ်သော
