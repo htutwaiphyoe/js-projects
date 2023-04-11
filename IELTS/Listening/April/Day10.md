@@ -51,13 +51,13 @@ total - 10
 32. private
 33. attitudes
 34. interviews
-35. C x B
+35. B
 36. A
 37. B
 38. B
 39. A
 40. C
 
-total - 9
+total - 10
 
-result - 38/40
+result - 39/40
