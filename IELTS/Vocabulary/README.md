@@ -13,7 +13,6 @@ contrive - ကြံဖန်သည်
 intimate - ရင်းနီးသော
 wear out - အသုံးဝင်မှုကုန်ဆုံးသွားသည်
 
-
 ## Word I'm not sure
 
 courtesy - ယဉ်ကျေးမှု
