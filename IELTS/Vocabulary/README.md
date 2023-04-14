@@ -2,6 +2,8 @@
 
 ## Word I can use
 
+obligatory -မလုပ်မနေရ
+
 ## Word I recognize but can't use
 
 obsolete - ခေတ်နောက်ကျသော
@@ -47,3 +49,4 @@ homogenous - တစ်သားတည်းဖြစ်သော
 stag - ဒရယ်
 pessimistic - အကောင်းမမြင်သော
 subordinate - လက်အောက်ငယ်သော
+nurture - မြေတောင်မြောက်ပေးသည်
