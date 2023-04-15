@@ -14,6 +14,7 @@ insecticide - ပိုးသတ်ဆေး
 contrive - ကြံဖန်သည်
 intimate - ရင်းနီးသော
 wear out - အသုံးဝင်မှုကုန်ဆုံးသွားသည်
+freight - ပို့ကုန်
 
 ## Word I'm not sure
 
