@@ -2,62 +2,62 @@
 
 ## Part I
 
-1. C
-2. B
-3. A
-4. C
-5. C
-6. Phoebe Payne
-7. Wain
-8. Economics
-9. C
-10. A
-
-total - 10
-
-## Part II
-
-11. A
-12. C
-13. B
-14. B x C
-15. C
-16. A
-17. A
-18. C
-19. B x A
-20. C
-
-total - 8
-
-## Part III
-
-21. local community
-22. ballon
-23. phone x special number
-24. 20
-25. 500
-26. 1.50
-27. 500
-28. C
-29. B
-30. C
+1. 400
+2. 2
+3. 750
+4. space
+5. Cornell
+6. Jason
+7. apartment
+8. 5:15
+9. employer
+10. 6 x 60
 
 total - 9
 
+## Part II
+
+11. B
+12. F
+13. H
+14. G
+15. C
+16. I
+17. E
+18. J
+19. F x A
+20. D
+
+total - 9
+
+## Part III
+
+21. fire
+22. national
+23. information
+24. shell x isolated
+25. biology
+26. fragments
+27. refuged x refugee
+28. E
+29. F x B
+30. C
+
+total - 7
+
 ## Part IV
 
-31. cable car
-32. science correspondent
-33. 23000 miles
-34. equator
-35. people
-36. x freight
-37. falls upwards x by the elevator
-38. x fall upwards
-39. x a whiplash
-40. x NO
+31. human
+32. seafloor
+33. salt
+34. natural
+35. lost
+36. activities x expansion
+37. fishing
+38. decoration
+39. fuels
+40. waves
 
-total - 5
+total - 9
 
-result - 32/40
+result - 34/40
