@@ -2,7 +2,7 @@
 
 ## Word I can use
 
-obligatory -မလုပ်မနေရ
+obligatory - မလုပ်မနေရ
 
 ## Word I recognize but can't use
 
@@ -16,6 +16,7 @@ intimate - ရင်းနီးသော
 wear out - အသုံးဝင်မှုကုန်ဆုံးသွားသည်
 freight - ပို့ကုန်
 indigenous - ဒေသခံ
+prospectus - လမ်းညွှန်စာအုပ်
 
 ## Word I'm not sure
 
@@ -52,3 +53,5 @@ stag - ဒရယ်
 pessimistic - အကောင်းမမြင်သော
 subordinate - လက်အောက်ငယ်သော
 nurture - မြေတောင်မြောက်ပေးသည်
+flourish - ရှင်သန်သည်
+illicit - ဉပဒေနှင့်ဆန့်ကျင်သော
