@@ -55,3 +55,4 @@ subordinate - လက်အောက်ငယ်သော
 nurture - မြေတောင်မြောက်ပေးသည်
 flourish - ရှင်သန်သည်
 illicit - ဉပဒေနှင့်ဆန့်ကျင်သော
+acupuncture - အပ်စိုက်ကုထုံး
