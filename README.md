@@ -6,3 +6,5 @@ app => routes and pages
 public => icons and assets
 
 default => all components are server-sided rendered
+
+object-contain for next/image to maintain aspect ratio
