@@ -9,6 +9,7 @@ type AutoCompleteInputProps = {
   value: string;
   onChange: (value: string) => void;
 };
+
 function AutoCompleteInput({ value, onChange }: AutoCompleteInputProps) {
   const [query, setQuery] = useState("");
 
@@ -47,9 +48,9 @@ function AutoCompleteInput({ value, onChange }: AutoCompleteInputProps) {
             leaveTo="opacity-0"
           >
             <Combobox.Options>
-              {filteredItems.map((item) => (
+              {filteredItems.map((item, i) => (
                 <Combobox.Option
-                  key={item}
+                  key={`${item}${i}`}
                   value={item}
                   className={({ active }) =>
                     `relative search-manufacturer__option ${
