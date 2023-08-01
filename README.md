@@ -10,3 +10,5 @@ default => all components are server-sided rendered
 object-contain for next/image to maintain aspect ratio
 
 [headless ui](https://headlessui.com/)
+
+async/await page function
