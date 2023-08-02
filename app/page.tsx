@@ -1,6 +1,13 @@
+import { fetchCars } from "@/api";
 import { Hero, SearchBar } from "@/components";
 
-export default function Home() {
+export default async function Home() {
+  const cars = await fetchCars();
+
+  const isEmptyCars = !Array.isArray(cars) || cars.length < 1 || !cars;
+
+  console.log(cars);
+
   return (
     <main className="overflow-hidden">
       <Hero />
@@ -14,6 +21,21 @@ export default function Home() {
         <div className="home__filters">
           <SearchBar />
         </div>
+
+        {isEmptyCars ? (
+          <div className="home__error-container">
+            <h2 className="text-xl font-bold text-black">Oops, No Result.</h2>
+            <p>{cars?.message}</p>
+          </div>
+        ) : (
+          <section>
+            <div className="home__cars-wrapper">
+              {cars.map((car, i) => (
+                <CarCard car={car} key={i} />
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </main>
   );
