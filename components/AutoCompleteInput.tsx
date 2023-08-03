@@ -1,14 +1,10 @@
 "use client";
 
 import { manufacturers } from "@/data/constant";
+import { AutoCompleteInputProps } from "@/types";
 import { Combobox, Transition } from "@headlessui/react";
 import Image from "next/image";
 import { Fragment, useState } from "react";
-
-type AutoCompleteInputProps = {
-  value: string;
-  onChange: (value: string) => void;
-};
 
 function AutoCompleteInput({ value, onChange }: AutoCompleteInputProps) {
   const [query, setQuery] = useState("");

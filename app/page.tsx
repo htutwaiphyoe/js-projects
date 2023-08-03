@@ -1,12 +1,10 @@
 import { fetchCars } from "@/api";
-import { Hero, SearchBar } from "@/components";
+import { CarCard, Hero, SearchBar } from "@/components";
 
 export default async function Home() {
   const cars = await fetchCars();
 
   const isEmptyCars = !Array.isArray(cars) || cars.length < 1 || !cars;
-
-  console.log(cars);
 
   return (
     <main className="overflow-hidden">

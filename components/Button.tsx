@@ -1,10 +1,6 @@
 "use client";
 
-import { ComponentPropsWithoutRef } from "react";
-
-type ButtonProps = ComponentPropsWithoutRef<"button"> & {
-  title: string;
-};
+import { ButtonProps } from "@/types";
 
 export default function Button({ title, ...props }: ButtonProps) {
   return (
