@@ -1,0 +1,35 @@
+{
+    "name": "splashy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/htutwaiphyoe/Splashy.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/htutwaiphyoe/Splashy/issues"
+    },
+    "homepage": "https://github.com/htutwaiphyoe/Splashy#readme",
+    "devDependencies": {
+        "@babel/core": "^7.11.5",
+        "@babel/preset-env": "^7.11.5",
+        "babel-loader": "^8.1.0",
+        "html-webpack-plugin": "^4.4.1",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "axios": "^0.20.0",
+        "core-js": "^3.6.5",
+        "regenerator-runtime": "^0.13.7"
+    }
+}

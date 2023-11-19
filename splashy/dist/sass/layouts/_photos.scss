@@ -1,0 +1,228 @@
+.photos {
+    padding: 3rem 2rem;
+    %box {
+        margin-bottom: 2rem;
+        display: grid;
+        gap: 2rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+        }
+
+        %image-hover {
+            cursor: zoom-in;
+
+            opacity: 0.8;
+            filter: blur(1px);
+            -webkit-filter: blur(1px);
+        }
+    }
+    &__box {
+        @extend %box;
+        grid-template-areas:
+            "s0 b0 b1"
+            "b2 b0 b1"
+            "b2 s1 b3"
+            "b4 b5 b3"
+            "b4 b5 s2";
+        @include responsive(50) {
+            grid-template-areas:
+                "s0 b0"
+                "b2 b0"
+                "b2 s1"
+                "b4 b5"
+                "b4 b5"
+                "b1 b3"
+                "b1 b3";
+        }
+        @include responsive(36) {
+            grid-template-areas:
+                "s0"
+                "b0"
+                "s1"
+                "b1"
+                "s2"
+                "b2"
+                "b3"
+                "b4"
+                "b5";
+        }
+        &-sm {
+            &:hover {
+                @extend %image-hover;
+            }
+
+            &--0 {
+                grid-area: s0;
+            }
+            &--1 {
+                grid-area: s1;
+            }
+            &--2 {
+                grid-area: s2;
+            }
+            @include responsive(50) {
+                &--2 {
+                    display: none;
+                }
+            }
+            transition: all 0.1s;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -ms-transition: all 0.1s;
+            -o-transition: all 0.1s;
+        }
+
+        &-big {
+            &:hover {
+                @extend %image-hover;
+            }
+
+            &--0 {
+                grid-area: b0;
+            }
+            &--1 {
+                grid-area: b1;
+            }
+            &--2 {
+                grid-area: b2;
+            }
+            &--3 {
+                grid-area: b3;
+            }
+            &--4 {
+                grid-area: b4;
+            }
+            &--5 {
+                grid-area: b5;
+            }
+            transition: all 0.1s;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -ms-transition: all 0.1s;
+            -o-transition: all 0.1s;
+        }
+    }
+    &__box-0 {
+        @extend %box;
+
+        grid-template-areas:
+            "s0 b0 s1"
+            "s2 b0 s3";
+
+        @include responsive(50) {
+            grid-template-areas:
+                "s0 b0"
+                "s1 b0"
+                "s2 s3";
+        }
+        @include responsive(36) {
+            grid-template-areas:
+                "s0"
+                "s1"
+                "b0"
+                "s2"
+                "s3";
+        }
+        &-sm {
+            &:hover {
+                @extend %image-hover;
+            }
+
+            &--0 {
+                grid-area: s0;
+            }
+            &--1 {
+                grid-area: s1;
+            }
+            &--2 {
+                grid-area: s2;
+            }
+            &--3 {
+                grid-area: s3;
+            }
+
+            transition: all 0.1s;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -ms-transition: all 0.1s;
+            -o-transition: all 0.1s;
+        }
+
+        &-big {
+            &:hover {
+                @extend %image-hover;
+            }
+
+            &--0 {
+                grid-area: b0;
+            }
+
+            transition: all 0.1s;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -ms-transition: all 0.1s;
+            -o-transition: all 0.1s;
+        }
+    }
+
+    &__box-1 {
+        @extend %box;
+
+        grid-template-areas:
+            "b0 s0 b1"
+            "b0 s1 b1";
+        @include responsive(50) {
+            grid-template-areas:
+                "b0 s1"
+                "b0 b1"
+                "s0 b1";
+        }
+        @include responsive(36) {
+            grid-template-areas:
+                "s0"
+                "b0"
+                "s1"
+                "b1";
+        }
+        &-sm {
+            &:hover {
+                @extend %image-hover;
+            }
+
+            &--0 {
+                grid-area: s0;
+            }
+            &--1 {
+                grid-area: s1;
+            }
+
+            transition: all 0.1s;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -ms-transition: all 0.1s;
+            -o-transition: all 0.1s;
+        }
+
+        &-big {
+            &:hover {
+                @extend %image-hover;
+            }
+
+            &--0 {
+                grid-area: b0;
+            }
+            &--1 {
+                grid-area: b1;
+            }
+
+            transition: all 0.1s;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -ms-transition: all 0.1s;
+            -o-transition: all 0.1s;
+        }
+    }
+}

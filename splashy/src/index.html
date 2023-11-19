@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="shortcut icon" href="./assets/imgs/logo-transparent.png" />
+        <title>Splashy</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                <img src="./assets/imgs/logo-transparent-black.png" class="header__logo-image" />
+            </div>
+            <div class="header__search">
+                <svg>
+                    <use href="assets/icons/symbol-defs.svg#icon-search"></use>
+                </svg>
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search free high-resolution photos"
+                    class="header__search-input"
+                />
+            </div>
+            <div class="header__auth">
+                <div class="header__login">
+                    <a href="/">HOME</a>
+                </div>
+                <div class="header__login">
+                    <a>LOGIN</a>
+                </div>
+
+                <div class="header__signup">
+                    <a>SIGNUP</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="photos">
+            <!-- <div class="photos__box">
+                <div class="photos__box--one">
+                    <img
+                        src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--two">
+                    <img
+                        src="https://images.unsplash.com/photo-1599106267524-4c98c8f89ecb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--three">
+                    <img
+                        src="https://images.unsplash.com/photo-1599205940775-6eb9db72cbce?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--four">
+                    <img
+                        src="https://images.unsplash.com/photo-1599168559492-2cdf8b476d6f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--five">
+                    <img
+                        src="https://images.unsplash.com/photo-1599119282332-7a8a741aae88?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--six">
+                    <img
+                        src="https://images.unsplash.com/photo-1599187348021-bd69ee035543?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--seven">
+                    <img
+                        src="https://images.unsplash.com/photo-1593697972297-46becf59ab50?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--eight">
+                    <img
+                        src="https://images.unsplash.com/photo-1598630388494-168f5c88c791?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--nine">
+                    <img
+                        src="https://images.unsplash.com/photo-1599163637149-a56f8a422c02?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+                <div class="photos__box--ten">
+                    <img
+                        src="https://images.unsplash.com/photo-1599069564519-bd9116ce8d30?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MjY2M30"
+                    />
+                </div>
+            </div> -->
+        </section>
+
+        <section class="details">
+            <div class="details__close">
+                <svg>
+                    <use href="assets/icons/symbol-defs.svg#icon-cross"></use>
+                </svg>
+            </div>
+            <!--
+            <div class="details__box">
+                <div class="details__header">
+                    <a href="#">
+                        <div class="details__user">
+                            <div class="details__user-photo">
+                                <img
+                                    src="https://images.unsplash.com/profile-1565854898152-9b08f669229dimage?dpr=1&auto=format&fit=crop&w=32&h=32&q=60&crop=faces&bg=fff"
+                                />
+                            </div>
+                            <div class="details__user-about">
+                                <p class="details__user-name">XPS</p>
+                                <p class="details__user-bio">Designed to be the best</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="details__download">
+                        <button class="details__download-btn">Download</button>
+                    </div>
+                </div>
+                <div class="details__photo">
+                    <div class="details__photo-box">
+                        <img
+                            src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="details__statistics">
+                    <div class="details__statistics-likes">
+                        <svg>
+                            <use href="assets/icons/symbol-defs.svg#icon-heart"></use>
+                        </svg>
+                        <span>123</span>
+                    </div>
+                    <div class="details__statistics-views">
+                        <svg>
+                            <use href="assets/icons/symbol-defs.svg#icon-eye"></use>
+                        </svg>
+                        <span>123</span>
+                    </div>
+                    <div class="details__statistics-downloads">
+                        <svg>
+                            <use href="assets/icons/symbol-defs.svg#icon-download"></use>
+                        </svg>
+                        <span>123</span>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+    </body>
+</html>

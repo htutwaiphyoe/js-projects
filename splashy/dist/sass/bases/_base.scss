@@ -1,0 +1,37 @@
+:root {
+    --color-dark: #1c1e21;
+    --color-light: rgb(245, 245, 245);
+    --color-light-dark: #f5f4f4;
+    --foreground: var(--color-dark);
+
+    --color-white-dark: #d1d1d1;
+    --color-white-dark-2: rgb(150, 150, 150);
+    --background: var(--color-white-dark);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+.show {
+    // width: 100% !important;
+    // height: 100vh !important;
+    overflow: hidden !important;
+}
