@@ -1,0 +1,53 @@
+.restart {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+
+    &__text {
+        font-size: 2rem;
+        font-style: italic;
+    }
+    &__btn {
+        width: 27rem;
+        height: 5.5rem;
+        margin-top: 0.4rem;
+        svg {
+            width: 4rem;
+            height: 4rem;
+            fill: var(--box-light);
+        }
+        background-color: var(--box-dark);
+        border: none;
+        border-radius: 10rem;
+        -webkit-border-radius: 10rem;
+        -moz-border-radius: 10rem;
+        -ms-border-radius: 10rem;
+        -o-border-radius: 10rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -ms-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+
+        &:hover {
+            transform: translateY(-0.2rem);
+            -webkit-transform: translateY(-0.2rem);
+            -moz-transform: translateY(-0.2rem);
+            -ms-transform: translateY(-0.2rem);
+            -o-transform: translateY(-0.2rem);
+        }
+        outline: none;
+
+        &:active {
+            transform: translateY(0rem);
+            -webkit-transform: translateY(0rem);
+            -moz-transform: translateY(0rem);
+            -ms-transform: translateY(0rem);
+            -o-transform: translateY(0rem);
+        }
+
+        box-shadow: var(--box-shadow);
+    }
+}

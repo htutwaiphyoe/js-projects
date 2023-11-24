@@ -1,0 +1,63 @@
+.box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 5rem 0 5rem;
+    display: grid;
+    grid-template-areas:
+        "i0 i1 i2 i3 i10"
+        "i0 i4 i5 i6 i10"
+        "i0 i7 i8 i9 i10";
+    gap: 1.5rem;
+
+    &__item {
+        height: 15rem;
+        background-color: var(--color-box-dark);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10rem;
+        font-weight: 700;
+        font-family: "Fredoka One";
+        box-shadow: var(--box-shadow);
+        cursor: pointer;
+
+        &--1 {
+            grid-area: i1;
+        }
+        &--2 {
+            grid-area: i2;
+        }
+        &--3 {
+            grid-area: i3;
+        }
+        &--4 {
+            grid-area: i4;
+        }
+        &--5 {
+            grid-area: i5;
+        }
+        &--6 {
+            grid-area: i6;
+        }
+        &--7 {
+            grid-area: i7;
+        }
+        &--0 {
+            grid-area: i0;
+            @include center;
+            color: var(--color-circle);
+        }
+        &--10 {
+            grid-area: i10;
+            @include center;
+            color: var(--color-cross);
+        }
+    }
+    &__color {
+        width: 50%;
+        height: 5rem;
+        background-color: var(--box-dark);
+        box-shadow: var(--box-shadow);
+        padding: 0.5rem;
+    }
+}

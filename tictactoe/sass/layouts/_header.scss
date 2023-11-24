@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    background-color: inherit;
+    padding: 1.5rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+    // &__player1 {
+    //     color: var(--color-circle);
+    //     display: flex;
+    //     flex-direction: column;
+    // }
+    // &__player2 {
+    //     color: var(--color-cross);
+    //     display: flex;
+    //     flex-direction: column;
+    //     display: none;
+    // }
+    &__result {
+        font-size: 4rem;
+        display: none;
+    }
+}

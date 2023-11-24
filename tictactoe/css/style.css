@@ -1,0 +1,222 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000;
+  --color-light: rgb(228, 230, 235);
+  --color-dark: #1c1e21;
+  --color-circle: #e1394d;
+  --color-cross: #289acb;
+  --color-box-dark: #333;
+  --color-box-light: #eee;
+  --foreground: var(--color-light);
+  --background: var(--color-dark);
+  --box-dark: var(--color-box-dark);
+  --box-light: var(--color-box-light);
+  --color-yellow: #d5c33e;
+  --color-green: #41d357;
+  --box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.151);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--foreground);
+  background-color: var(--background);
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+
+.red {
+  color: var(--color-circle) !important;
+}
+
+.blue {
+  color: var(--color-cross) !important;
+}
+
+.yellow {
+  color: var(--color-yellow) !important;
+}
+
+.green {
+  color: var(--color-green) !important;
+}
+
+.white-theme {
+  color: var(--background);
+  background-color: var(--foreground);
+}
+
+.white-box {
+  background-color: var(--box-light) !important;
+}
+
+.dark-icon {
+  fill: var(--box-dark) !important;
+}
+
+.header {
+  width: 100%;
+  background-color: inherit;
+  padding: 1.5rem 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.header__result {
+  font-size: 4rem;
+  display: none;
+}
+
+.restart {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+.restart__text {
+  font-size: 2rem;
+  font-style: italic;
+}
+.restart__btn {
+  width: 27rem;
+  height: 5.5rem;
+  margin-top: 0.4rem;
+  background-color: var(--box-dark);
+  border: none;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  outline: none;
+  box-shadow: var(--box-shadow);
+}
+.restart__btn svg {
+  width: 4rem;
+  height: 4rem;
+  fill: var(--box-light);
+}
+.restart__btn:hover {
+  transform: translateY(-0.2rem);
+  -webkit-transform: translateY(-0.2rem);
+  -moz-transform: translateY(-0.2rem);
+  -ms-transform: translateY(-0.2rem);
+  -o-transform: translateY(-0.2rem);
+}
+.restart__btn:active {
+  transform: translateY(0rem);
+  -webkit-transform: translateY(0rem);
+  -moz-transform: translateY(0rem);
+  -ms-transform: translateY(0rem);
+  -o-transform: translateY(0rem);
+}
+
+.footer {
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+.box {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 5rem 0 5rem;
+  display: grid;
+  grid-template-areas: "i0 i1 i2 i3 i10" "i0 i4 i5 i6 i10" "i0 i7 i8 i9 i10";
+  gap: 1.5rem;
+}
+.box__item {
+  height: 15rem;
+  background-color: var(--color-box-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  font-weight: 700;
+  font-family: "Fredoka One";
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+.box__item--1 {
+  grid-area: i1;
+}
+.box__item--2 {
+  grid-area: i2;
+}
+.box__item--3 {
+  grid-area: i3;
+}
+.box__item--4 {
+  grid-area: i4;
+}
+.box__item--5 {
+  grid-area: i5;
+}
+.box__item--6 {
+  grid-area: i6;
+}
+.box__item--7 {
+  grid-area: i7;
+}
+.box__item--0 {
+  grid-area: i0;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: var(--color-circle);
+}
+.box__item--10 {
+  grid-area: i10;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: var(--color-cross);
+}
+.box__color {
+  width: 50%;
+  height: 5rem;
+  background-color: var(--box-dark);
+  box-shadow: var(--box-shadow);
+  padding: 0.5rem;
+}
+
+.theme {
+  position: absolute;
+  top: 3%;
+  right: 6%;
+  z-index: 1;
+}
+.theme svg {
+  width: 6rem;
+  height: 6rem;
+  fill: currentColor;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
