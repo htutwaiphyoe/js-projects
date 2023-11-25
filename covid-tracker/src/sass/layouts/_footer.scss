@@ -1,0 +1,39 @@
+.footer{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    text-align: center;
+
+    &__legal{
+        font-size: 2.2rem;
+        font-weight: 300;
+        @include responsive(36){
+            font-size: 1.9rem;
+            
+        }
+        @include responsive(30){
+            font-size: 1.6rem;
+            
+        }
+        // @include responsive(23.75){
+        //     font-size: 1.6rem;
+            
+        // }
+    }
+    &__credit{
+        font-size: 1.8rem;
+        @include responsive(36){
+            font-size: 1.6rem;
+            
+        }
+        @include responsive(30){
+            font-size: 1.4rem;
+            
+        }
+        font-weight: 300;
+        padding: 1rem;
+    }
+}

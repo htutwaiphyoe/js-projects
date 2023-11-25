@@ -1,0 +1,97 @@
+.country{
+    width: 80%;
+    margin: 0 auto;
+    @include responsive(62){
+        width: 88%;
+        
+    }
+    @include responsive(48){
+        width: 96%;
+        
+    }
+    @include responsive(36){
+        width: 98%;
+        
+    }
+    // background-color: red;
+    
+    &__search{
+        width: 100%;
+        padding: 3rem;
+        @include responsive(30){
+            padding: 3rem 0;
+            
+        }
+         
+        display: -webkit-box;
+         
+        display: flex;
+        -webkit-box-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+                align-items: center;
+    }
+    &__form{
+        font-family: inherit;
+
+}
+    &__input{
+        padding: 1.3rem 4.5rem 1.3rem 3rem;
+        width: 30rem;
+        background-color: var(--white);
+        border-radius: 10rem;
+        -webkit-border-radius: 10rem;
+        -moz-border-radius: 10rem;
+        -ms-border-radius: 10rem;
+        -o-border-radius: 10rem;
+        border: none;
+        font-size: 16px;
+        font-family: inherit;
+        box-shadow: 0 .15rem 1.2rem 0 rgba(58,59,69,.3)!important;
+        @include responsive(23.75){
+            width: 25rem;
+            
+        }
+       
+        &:focus{
+            outline: none;
+            box-shadow:   0 .15rem 1.2rem 0 rgba(58,59,69,.4)!important;
+        
+        }
+
+    }
+
+    &__btn{
+        padding: 1.3rem 3rem;
+        font-size: 16px;
+        margin-left: -4rem;
+        border: none;
+        border-radius: 10rem;
+        -webkit-border-radius: 10rem;
+        -moz-border-radius: 10rem;
+        -ms-border-radius: 10rem;
+        -o-border-radius: 10rem;
+        font-family: inherit;
+        background-color: var(--green);
+        color: var(--light);
+        box-shadow: $box-shadow;
+        cursor: pointer;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -ms-transition: all .2s;
+        -o-transition: all .2s;
+        &:hover
+    {
+            transform: translateX(-1rem);
+            -webkit-transform: translateX(-1rem);
+            -moz-transform: translateX(-1rem);
+            -ms-transform: translateX(-1rem);
+            -o-transform: translateX(-1rem);
+}
+       &:focus{
+           outline: none;
+       }
+    }
+ 
+}

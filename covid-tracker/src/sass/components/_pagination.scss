@@ -1,0 +1,20 @@
+.pagination{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    &__item{
+        padding: .5rem;
+        background-color: var(--white);
+        box-shadow: $box-shadow;     
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        &--previous{
+            margin-right: 3rem;
+        }
+    }
+    
+}

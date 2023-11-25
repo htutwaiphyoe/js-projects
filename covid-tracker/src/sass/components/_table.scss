@@ -1,0 +1,43 @@
+.table{
+    width: 100%;
+    margin: 2.5rem 0;
+    background-color: var(--white);
+    border-collapse: collapse;
+    box-shadow: $box-shadow;
+    max-height: 100vh;
+    caption{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+
+    }
+}
+.thead{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: inherit;
+    text-align: left;
+    
+    th{
+      
+        padding: 1.5rem 1rem;
+     
+    }
+  
+    
+
+
+}
+tr{
+    display: table-row;
+}
+
+.tbody{
+    font-size: 1.5rem;
+
+    td{
+        padding: 1.2rem;
+    }
+}

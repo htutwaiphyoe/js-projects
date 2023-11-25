@@ -1,0 +1,17 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'bases/base';
+@import 'bases/typography';
+@import 'bases/utilities';
+@import 'bases/animations';
+
+@import 'components/table';
+@import 'components/preloader';
+@import 'components/pagination';
+
+@import 'layouts/header';
+@import 'layouts/summary';
+@import 'layouts/graph';
+@import 'layouts/country';
+@import 'layouts/footer';
